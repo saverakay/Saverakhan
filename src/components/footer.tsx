@@ -10,18 +10,6 @@ export default function Footer() {
           © {currentYear} Savera Khan. All rights reserved.
         </div>
         
-        <div className="flex gap-8">
-          {['Instagram', 'ArtStation', 'LinkedIn'].map((social) => (
-            <a 
-              key={social}
-              href="#" 
-              className="text-xs uppercase tracking-[0.2em] text-text-charcoal/40 hover:text-accent-terracotta transition-colors"
-            >
-              {social}
-            </a>
-          ))}
-        </div>
-        
         <motion.div 
           className="text-xs uppercase tracking-widest text-text-charcoal/20"
           whileHover={{ opacity: 1 }}

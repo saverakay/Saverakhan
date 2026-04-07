@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Instagram, Linkedin, Mail, Globe } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -27,23 +27,6 @@ export default function Contact() {
               </div>
               saverakhan374@gmail.com
             </a>
-            
-            <div className="flex gap-4 pt-4">
-              {[
-                { icon: Instagram, label: 'Instagram' },
-                { icon: Linkedin, label: 'LinkedIn' },
-                { icon: Globe, label: 'ArtStation' }
-              ].map((social) => (
-                <a 
-                  key={social.label}
-                  href="#" 
-                  className="p-4 bg-white rounded-full shadow-sm hover:shadow-md hover:text-accent-terracotta transition-all"
-                  aria-label={social.label}
-                >
-                  <social.icon size={20} />
-                </a>
-              ))}
-            </div>
           </div>
         </motion.div>
 
