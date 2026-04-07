@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Gallery from './components/gallery';
-import About from './components/about';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Lightbox from './components/lightbox';
@@ -169,7 +168,6 @@ export default function App() {
           </div>
         </section>
 
-        <About />
         <Contact />
       </main>
 
